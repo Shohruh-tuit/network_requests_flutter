@@ -57,7 +57,12 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    var post = new Post(id: 1, title: "pdp", body: "online", userId: 1);
+    var post = new Post(
+      id: 1,
+      title: "pdp",
+      body: "online",
+      userId: 1,
+    );
     // _apiCreatePost(post);
     // _apiGetPostList();
     _apiUpdatePost(post);
